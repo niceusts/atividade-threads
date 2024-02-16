@@ -11,15 +11,15 @@ package threads;
 class Contador {
     private int contador = 0;
 
-    public synchronized void inc() {
+    public void inc() {
         contador++;
     }
 
-    public synchronized void dec() {
+    public void dec() {
         contador--;
     }
 
-    public synchronized int getContador() {
+    public int getContador() {
         return contador;
     }
 }
